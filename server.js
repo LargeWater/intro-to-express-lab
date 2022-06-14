@@ -22,7 +22,7 @@ app.get('/', function(req, res){
 })
 
 app.get('/', function(req, res){
-  res.render('home')
+  res.redirect('home')
 })
 
 app.get('/students', function(req, res){
